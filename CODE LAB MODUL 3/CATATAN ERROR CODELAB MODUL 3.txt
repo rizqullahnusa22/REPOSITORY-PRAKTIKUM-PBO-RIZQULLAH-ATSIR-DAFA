@@ -1,0 +1,34 @@
+RIZQULLAH ATSIR DAFA CHILDYASA NUSA
+202310370311119
+
+ERROR CODELAB MODUL 3
+
+
+Error 1 (Bangun Ruang)
+
+Line 9  = di bagian system out printnya kurang atributnya/variabel krena input nilai kurang jelas jadi saya tambahkan input nilai untuk + name
+
+Line 24,25  = Kata kunci return tidak diikuti dengan nama variabel. dan Kata kunci your tidak didefinisikan maksudnya apa, jadi saya tambahkan return this.name
+
+
+Error 2 (Kubus)
+
+Line 14, 15  =  system out printnya kurang lengkap/kurang kalimatnya dan bagian nextnya kedouble kalimatnya
+
+Line 21  = bagian super luasan tidak terdefinisi atau tidak jelas, maka say panggil menjadi super.luasPermukaan();
+
+Error 3(Tabung)
+
+Line 6  = pada private doublenya tidak terdefinisi, jadi saya tambahkan jari_jari
+
+Line 14  =  terdapat pemanggilan method luasPermukaan() yang tidak tepat, dikarenakan menginput nilai pada line 13, maka harus sama yaitu input nilai juga
+
+Line 17 = kurang titik koma atau tutup pada system out print input jari-jari
+
+Line 24 = typo pada kalimat super luas permukaan kurang () tanda kurung
+
+
+Error 4 (Balok)
+Kurang tambahkan kelas Balok, jadi saya membuat class baru yaitu class balok sesuai dengan yang ada di perintah modul, yaitu panjang, lebar dan tinggi dengan menggunakan double dan untuk menginput nilai, luas permukaan, dan volume yang menggunakan void.
+
+sekian terimakasih....
