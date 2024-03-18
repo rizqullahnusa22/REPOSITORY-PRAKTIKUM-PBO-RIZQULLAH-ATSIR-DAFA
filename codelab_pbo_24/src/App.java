@@ -1,8 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Tabung tabung = new Tabung("tabung");
-        Kubus kubus = new Kubus("kubus");
-        Balok balok = new Balok("balok");
+        Tabung tabung = new Tabung("Tabung");
+        Kubus kubus = new Kubus("Kubus");
+        Balok balok = new Balok("Balok");
 
         balok.inputNilai();
         balok.luasPermukaan();
@@ -17,3 +17,6 @@ public class App {
         tabung.volume();
     }
 }
+
+
+
