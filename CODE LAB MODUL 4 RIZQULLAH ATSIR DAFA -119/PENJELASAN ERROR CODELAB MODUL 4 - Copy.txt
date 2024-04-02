@@ -1,0 +1,58 @@
+RIZQULLAH ATSIR DAFA CHILDYASA NUSA
+202310370311  -119
+
+
+PENJELASAN ERROR CODELAB MODUL 4
+
+File Main.java
+
+- tidak ada yang saya ubah sesuai perintah dari modul, akan tetapi ketika input warna menjadi null, makanya saya merubah di bagian pemanggilan setwarna() yang dimana sebelumnya terjadi double pemanggilan yaitu setmodel() yang berada pada baris 28 dan 29, dan saya ubah menjadi setwarna() agar warna kendaraan bisa dipanggil di output
+
+
+File Kendaraan.java
+
+- saya menambahkan public abstract void Stop() method abstract untuk menghentikan kendaraan yang berada pada baris 10, dan juga public abstract void Brake() method abstract untuk mengerem kendaraan yang berada pada baris 11
+
+
+
+File interface ShootAble
+
+- saya perbaiki penamaan package yang sebelumnya public inter menjadi public interface agar codingan tidak error yang berada pada baris 3
+
+
+File interface Flyable
+
+- saya menghapus modifier private yang berada pada method fly() karena tidak dapat diterapkan pada method yang berada dalam interface yang berada pada baris 4
+
+
+File Motor.java
+
+- saya menambahkan method start() dan brake() yang dimana pada codingan sebelumnya tidak ditambahkan atau kurang dalam penulisan codenya, maka saya mengimplementasikan semua method abstract yang didefinisikan di superclass Kendaraan
+
+- method start() pada baris 7 dan method Brake() pada baris 17
+
+- dan juga saya mengubah pemanggilan get yang awalnya getname(), saya ubah menjadi getmodel() agar bisa menginput inputan user model kendaraan pada kendaraan tersebut
+
+
+
+File Pesawat.java
+
+- pada class ini saya mengoverride method yang tidak di override secara benar yaitu Start(), Stop(), dan fly(). dan juga saya menambahkan method Brake() pada baris 18
+
+- dan juga saya mengubah pemanggilan get yang awalnya getname(), saya ubah menjadi getmodel() agar bisa menginput inputan user model kendaraan pada kendaraan tersebut
+
+
+
+File Tank.java
+
+- perbaikan nama interface yang sebelumnya Shootable menjadi ShootAble yang berada pada baris 4 dan 6
+
+- saya menambahkan titik koma di akhir statement pada method stop() yang berada pada baris 13
+
+- saya menambahkan titik koma di akhir statement pada method Brake() yang berada pada baris 19
+
+- saya memperbaiki penamaan parameter yang kurang lengkap yang sebelumnya ditulis ("Tank menembak" + vehi) menjadi ("Tank menembak " + vehicle); dan juga menambahkan titik koma di akhir statement yang berada pada baris 24
+
+- dan juga saya mengubah pemanggilan get yang awalnya getname(), saya ubah menjadi getmodel() agar bisa menginput inputan user model kendaraan pada kendaraan tersebut
+
+
